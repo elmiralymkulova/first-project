@@ -140,6 +140,64 @@
 
 
 
+.digits {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  width: 60%;
+
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin: 0 auto;
+  width: 60%;
+
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.table {
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  width: 1100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: ;
+}
+
+.table__cell {
+  padding: 60px 0 0 0;
+  width: 250px;
+}
+
+.table__heading {
+  margin: 0;
+
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text {
+  margin: 0;
+  padding-top: 20px;
+
+  line-height: 1.2;
+  font-size: 18px;
+  font-style: normal;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
