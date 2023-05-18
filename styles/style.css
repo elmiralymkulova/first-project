@@ -16,7 +16,7 @@
   /* выше установили ограничения для секции */
 
   background-color: #f2f2f2;
-  box-sizing: border-box;
+  position: relative; /* позиционирование дочерних блоков относительно родителя header */
 
   display: flex;
   flex-wrap: wrap;
@@ -61,6 +61,11 @@
   font-style: normal;
 }
 
+.header__link {
+  text-decoration-line: none;
+  color: #2f80ed;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -80,6 +85,30 @@
   right: 0;
   z-index: 1;
 }
+
+
+
+.description {
+
+}
+
+.two-columns {
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.two-columns__brief {}
+
+.two-columns__main-text {}
+
+.two-columns__paragraph {}
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
