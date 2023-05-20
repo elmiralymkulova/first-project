@@ -30,7 +30,7 @@
 }
 
 .logo_place_header {
-  background-image: url("./images/logo_place_header.svg");
+  background-image: url("../images/logo_place_header.svg");
   position: absolute;
   top: 30px;
   left: 64px;
@@ -243,7 +243,7 @@
 }
 
 .feynman__image {
-  background-image: url("./images/feynman.png");
+  background-image: url("../images/feynman.png");
   width: 867px;
   height: 637px;
   z-index: 1;
@@ -287,7 +287,7 @@
 }
 
 .kaufman__triangle {
-  background-image: url("./images/kaufman-triangle.svg"); /* треугольник не выходит на передний план*/
+  background-image: url("../images/kaufman-triangle.svg"); /* треугольник не выходит на передний план*/
   width: 877px;
   height: 877px;
   z-index: 1;
@@ -323,7 +323,7 @@
 }
 
 .logo_place_footer {
-  background-image: url("/images/logo_place_footer.svg"); /* не относительный путь, поправить!*/
+  background-image: url("../images/logo_place_footer.svg");
 }
 
 .footer__author {
@@ -339,9 +339,11 @@
   margin-top: 0;
   list-style: none;
   padding-left: 0;
+ 
 }
 
 .footer__column-link {
+  position: static;
   padding-bottom: 10px;
 
   text-decoration-line: none;
