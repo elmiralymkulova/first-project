@@ -314,6 +314,14 @@
   justify-content: space-between;
 }
 
+.footer__column {
+  padding-bottom: 16px;
+}
+
+.footer__column:nth-child(1n){
+  padding-bottom: 0;
+} 
+
 .footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
@@ -328,31 +336,41 @@
 
 .footer__author {
   margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .footer__column-heading {
   margin: 0;
   padding-bottom: 20px;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .footer__column-links {
   margin-top: 0;
   list-style: none;
   padding-left: 0;
- 
+  
+  line-height: 30px;
+  font-size: 18px;
+  font-style: normal;
 }
 
 .footer__column-link {
-  position: static;
   padding-bottom: 10px;
 
   text-decoration-line: none;
   color: white;
 }
 
+/*
 .footer__column-link:nth-child(3n){
-  padding-bottom: 0;
-}
+  padding-bottom: 0; похоже не сработало
+} */
 
 .footer__social-icon {
   width: 16px;
